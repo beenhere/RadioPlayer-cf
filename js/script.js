@@ -1,18 +1,18 @@
 
 
-const RADIO_NAME = 'Game! Radio 1';
+const RADIO_NAME = 'CubanFlow Radio';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY  eg : spotify 
-var API_SERVICE = 'deezer';
+var API_SERVICE = 'spotify';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR ETC.... DOES NOT SUPPORT HLS
-const URL_STREAMING = 'https://stream-51.zeno.fm/cfhkm5fs1uhvv?zs=HOu6hxV1SG-7iGi9WGVTqQ';
+const URL_STREAMING = 'http://nap.casthost.net:9194/stream?type=http&nocache=3196310';
 
 //NOW PLAYING API.
-const API_URL = 'https://n1.radioapi.me/api/metadata/0df05825-ea1a-4897-b3e6-2d05a8277233'
+const API_URL = ''
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
-const API_KEY = "18fe07917957c289983464588aabddfb";
+const API_KEY = "";
 
 window.onload = function () {
     var page = new Page;
