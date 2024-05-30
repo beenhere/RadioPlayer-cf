@@ -6,7 +6,7 @@ const RADIO_NAME = 'CubanFlow Radio';
 var API_SERVICE = 'spotify';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR ETC.... DOES NOT SUPPORT HLS
-const URL_STREAMING = 'http://nap.casthost.net:9194/stream.mp3';
+const URL_STREAMING = 'http://nap.casthost.net:9194';
 
 //NOW PLAYING API.
 const API_URL = ''
